@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pytorch-onnx-tutorial"
+version = "0.1.0"
+description = ""
+authors = ["Shin-kyoto <aquashin0202@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+onnx = "^1.15.0"
+onnxscript = "^0.1.0.dev20240203"
+torch = "^2.2.0"
+packaging = "^23.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
