@@ -1,6 +1,11 @@
 import torch, onnx
 from mymodel import MyModel
 
+seed = 0
+torch.manual_seed(seed)
+torch.backends.cudnn.benchmark = False
+torch.backends.cudnn.deterministic = True
+
 if __name__ == '__main__':
     model = MyModel()
 
